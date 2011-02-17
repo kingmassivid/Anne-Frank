@@ -1,0 +1,18 @@
+<html>
+<head>
+<title>Font-test</title>
+<style>
+@font-face {
+  font-family: 'Rough Typewriter';
+  src: url('rough_typewriter.otf');
+  src: local('☺'),
+        url('rough_typewriter.otf') format('opentype');
+}
+p { font-family: Rough Typewriter, serif; }
+</style>
+</head>
+<body>
+<p> Das ist ein Test !!! In Schreibmaschienenschrift... </p>
+</body>
+</html>
+
